@@ -30,9 +30,9 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "27972068"))
+API_HASH = environ.get("API_HASH", "6821720133:AAFgYZo0P7D3WWmTOyfdD3V4xVBAJD9dHT0")
+ADMINS = int(environ.get("ADMINS", "6075512585"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://subhadeepsamui79:v3REnnLOfITn2p8t@cluster0.4z3invg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -46,7 +46,7 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "6821720133:AAFgYZo0P7D3WWmTOyfdD3V4xVBAJD9dHT0")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", " files tore") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
