@@ -31,7 +31,7 @@ def is_enabled(value, default):
        
 # Owner Information
 API_ID = int(environ.get("API_ID", "27972068"))
-API_HASH = environ.get("API_HASH", "6821720133:AAFgYZo0P7D3WWmTOyfdD3V4xVBAJD9dHT0")
+API_HASH = environ.get("API_HASH", "6e7e2f5cdddba536b8e603b3155223c1")
 ADMINS = int(environ.get("ADMINS", "6075512585"))
 
 # Database Information
