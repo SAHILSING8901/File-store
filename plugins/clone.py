@@ -18,7 +18,8 @@ mongo_collection = mongo_db[DB_NAME]
 
 @Client.on_message(filters.command("clone") & filters.private)
 async def clone(client, message):
-    await message.reply_text(script.CLONE_TXT)
+    await message.reply_text('😭 𝕊𝕠𝕣𝕣𝕪 𝔻𝕦𝕕𝕖. ℂ𝕝𝕠𝕟𝕚𝕟𝕘 𝕗𝕖𝕒𝕥𝕦𝕣𝕖 𝕚𝕤 𝕟𝕠𝕥 𝕒𝕧𝕖𝕝𝕒𝕓𝕝𝕖')
+    #await message.reply_text(script.CLONE_TXT)
 
 
 
