@@ -46,7 +46,7 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "7305658772:AAEuEsdmgmnJ7nhoJqlt3pt0YEYDG2uicn0")
-BOT_USERNAME = environ.get("BOT_USERNAME", "DataCollector003_Bot") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Hell_King_File_Store_Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
